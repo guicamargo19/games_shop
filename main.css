@@ -123,6 +123,10 @@ form button {
     cursor: pointer;
 }
 
+form {
+    margin-bottom: 60px;
+}
+
 form button:hover {
     background-color: #314e9e;
 }
@@ -132,7 +136,12 @@ input:focus, textarea:focus {
 }
 
 .social-links img {
+    height: 30px;
+}
+
+.social-links #face {
     height: 24px;
+    margin-bottom: 4px;
 }
 
 .social-links li {
@@ -144,8 +153,14 @@ input:focus, textarea:focus {
     text-decoration: none;
 }
 
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+
 footer {
     background-color: #182c61;
     color: #ecf0f1;
     padding: 16px 0;
+    text-align: center;
 }
