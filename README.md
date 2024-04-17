@@ -1,6 +1,6 @@
 ## Site Games Shop
 
-<img src="assets/game.png">
+<img src="https://servidor-estatico-tan.vercel.app/games_shop.png">
 
 Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 

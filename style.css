@@ -36,6 +36,11 @@ header nav li a {
     text-decoration: none;
 }
 
+header nav li a:hover {
+    color: #ecf0f1;
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1280px;
     width: 100%;
@@ -69,7 +74,7 @@ section .container {
 }
 
 section {
-    padding: 24px 0;
+    padding: 18px 0;
 }
 
 section h2 {
@@ -109,11 +114,12 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    font-family: 'Bungee', cursive;
 }
 
 form textarea {
     resize: none;
-    height: 180px;
+    height: 150px;
 }
 
 form button {
@@ -157,10 +163,21 @@ input:focus, textarea:focus {
     transform: scale(1.1);
 }
 
-
-footer {
+.direitos {
+    text-align: center;
     background-color: #182c61;
     color: #ecf0f1;
-    padding: 16px 0;
-    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.direitos a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 14px;
+}
+
+.direitos a:hover {
+    text-decoration: none;
+    color: #708090;
 }
